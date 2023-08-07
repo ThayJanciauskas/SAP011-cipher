@@ -1,0 +1,105 @@
+    .modal {
+      display: none;
+      position: center;
+      top: 50;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .modal-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px;
+      text-align: center;
+      background-color: #FFFFF0;
+      border: 1px solid #800000;
+      border-radius: 10px;
+      font-size: 20px;
+    }
+    
+    .modal-content h2 {
+      margin-top: 0;
+    }
+
+    button {
+      margin-top: 30px;
+      height: 100%;
+      width: 100%;
+      padding: 10px 20px;
+      background-color: #FFFFF0;
+      border: 2px solid #800000;
+      color: #800000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    body {
+      background-image: url(https://64.media.tumblr.com/59d7a5114b803086985b2751118114b6/tumblr_o9i03fk4aE1s4fz15o4_r1_1280.jpg);
+      background-size: cover;
+    
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    #openModal {
+      font-size: 30px;
+      padding: 30px 40px;
+      border-radius: 20px;
+      font-family: Times New Roman;
+      background-color: #FFFFF0;
+      border: 2px solid #800000;
+      color: #800000;
+      width: 35%;
+      height: 30vh;
+    }
+    
+    #botao1 {
+      font-size: 15px;
+      padding: 7px 7px;
+      background-color: #FFFFF0; 
+      border: 1px solid #800000;
+      border-radius: 10px;
+      width: auto;
+      margin: 0 auto;
+      
+    }
+    
+    #botao2 {
+      font-size: 12px;
+      padding: 7px 12px;
+      background-color: #FFFFF0; 
+      border: 1px solid #800000;
+      border-radius: 10px;
+      width: auto;
+      margin: 0 auto;
+      
+    }
+    
+    #botao3 {
+      font-size: 12px;
+      padding: 7px 12px;
+      background-color: #FFFFF0; 
+      border: 1px solid #800000;
+      border-radius: 10px;
+      width: 80px;
+      margin: 0 auto;
+      
+    }
+    
+    #botao4 {
+      font-size: 12px;
+      padding: 7px 12px;
+      background-color: #FFFFF0; 
+      border: 1px solid #800000;
+      border-radius: 10px;
+      width: auto;
+      margin: 0 auto;
+    }

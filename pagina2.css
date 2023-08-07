@@ -1,0 +1,63 @@
+body {
+    background-image: url("https://64.media.tumblr.com/59d7a5114b803086985b2751118114b6/tumblr_o9i03fk4aE1s4fz15o4_r1_1280.jpg");
+    background-size: 108%;
+  }
+  body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  h1 {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #800000;
+  }
+  h2 {
+    Margin-top: 3px;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+    
+  }
+  .texto-container {
+    background-color: #FFFFE0;
+    padding: 2px;
+    font-size: 18px;
+    border-radius: 2px;
+  }
+  #container, #resultadoContainer, #descriptografadoContainer {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+  }
+  
+  #textoEntrada, #textoResultado, #textoEntradaDecript, #textoDescriptografado
+  {  width: 300px;
+     height: 100px;
+     border: 1px solid #800000;
+     border-radius: 5px;
+     padding-bottom: 2px;
+  }
+  
+  #chaveEntradaCript, #chaveEntradaDecript {
+    margin-bottom: 8px;
+    width: 75%;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #800000;
+  }
+  
+  #crpt,
+  #dcrpt {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: #FFFFFF;
+    border: 1px solid #800000;
+  }

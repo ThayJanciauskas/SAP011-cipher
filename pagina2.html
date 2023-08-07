@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Trívia Laboratoria</title>
+  <link href="pagina2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div1>
+    <h1>Cipher Game</h1>
+  </div1>
+
+  <div2>
+    <h2>Valentim e Francesca</h2>
+  </div2>
+
+  <p class="texto-container">Adicione seu texto no campo abaixo:</p>
+  <div3 id="container">
+    <input type="text" id="textoEntrada" placeholder="Insira o texto aqui...">
+  </div3>
+
+    <p class="texto-container">Agora escolha o número de casas que as letras irão se deslocar:</p>
+    
+  <div4>
+    <input type="number" min="0" max="10" id="chaveEntradaCript" placeholder="Chave de deslocamento">
+  </div4>
+
+  <section2>
+    <button id="crpt">Criptografar</button>
+  </section2>
+  
+ 
+  <div id="resultadoContainer">
+    <input type="text" id="textoResultado" readonly>
+  </div>
+
+     <p class="texto-container">Adicione seu texto criptografado no campo abaixo:</p>
+  <div5>
+    <input type="text" id="textoEntradaDecript" placeholder="Insira o texto a ser descriptografado">
+  </div5>
+
+    <p class="texto-container">Agora escolha o número de casas que as letras irão se deslocar:</p>
+  <div6>
+    <input type="number" min="0" max="10" id="chaveEntradaDecript" placeholder="Deslocamento para descriptografar">
+  </div6>
+
+  <section2>
+    <button id="dcrpt">Descriptografar</button>
+  </section2>
+
+  
+  <div id="descriptografadoContainer">
+    <input type="text" id="textoDescriptografado" readonly>
+  </div>
+
+  <script src="pagina2.js"></script>
+</body>
+</html>
